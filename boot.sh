@@ -17,4 +17,7 @@ cd /tmp
 git clone https://github.com/hashicorp-education/terramino-go.git
 cd terramino-go
 
+# Temporarily checkout a previous version of terramino-go
+git checkout 58d39908e07424cba3b0c2f2d9588d9cebfa476b
+
 APP_NAME=${app_name} TERRAMINO_PORT=${port} go run main.go
