@@ -22,3 +22,11 @@ variable "port" {
   type    = number
   default = 80
 }
+
+variable "access_key" {
+  type = string
+}
+
+variable "secret_key" {
+  type = string
+}
