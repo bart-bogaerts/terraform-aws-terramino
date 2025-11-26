@@ -23,14 +23,6 @@ variable "port" {
   default = 80
 }
 
-variable "access_key" {
-  type = string
-}
-
-variable "secret_key" {
-  type = string
-}
-
 variable "aws_region" {
   type = string
   default = "us-east-1"
